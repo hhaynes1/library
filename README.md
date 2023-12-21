@@ -1,1 +1,2 @@
 # library
+Small library app using Javascript to implement 'books' as objects and keep track of them in an array. Simple display with inputs to add new titles and remove old ones or change 'read' status.
