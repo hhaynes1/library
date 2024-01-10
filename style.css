@@ -20,8 +20,6 @@ h1 {
     align-items: center;
 }
 
-
-
 .shelf {
     display: flex;
     flex-flow: row wrap;
@@ -38,7 +36,6 @@ h1 {
     border: 2px solid black;
     /* white-space: pre-line; */
 }
-
 
 .card {
     display: flex;
