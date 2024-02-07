@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>My Library</title>
 </head>
 
 <body>
     <div class="page-container">
 
-        <div class="book-input">
+        <form class="book-input">
             <div class="input">
                 <label for="title">Title</label>
                 <input id="title" type="text" placeholder="The Sun Also Rises" required>
@@ -22,7 +23,7 @@
             </div>
             <div class="input">
                 <label for="page-count">Page count:</label>
-                <input id="page-count" type="number" name="page-count" placeholder="394">
+                <input id="page-count" type="number" name="page-count" placeholder="394" required>
             </div>
             <div class="input">
                 <label for="have-read">Already read?</label>
@@ -30,13 +31,12 @@
             </div>
             <button class="new-book-button">+</button>
             <button class="reset-library-button">Reset</button>
-        </div>
+        </form>
 
         <div class="shelf">
         </div>
     </div>
 
-    <script src="script.js"></script>
 </body>
 
 </html>
